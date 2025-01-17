@@ -48,13 +48,23 @@ export default function BookPage() {
                         </h1>
 
                         <div className="mt-4 text-gray-600">
-                            <p className="mb-4">
-                                Découvrez les secrets pour réussir dans l'écosystème startup...
+                            <p className="mb-4 text-justify">
+                                20 millions d'euros par ici, 50 millions par là. Tous les jours des Startups annoncent des montants records.
+                                Certaines changent le monde, d'autres ne font qu'un passage éphémère.
+                            </p>
+                            <p className="mb-4 text-justify">
+                                Thomas a été bercé par les histoires d'entrepreneurs à succès. Il veut créer le futur Doctolib et devenir
+                                le prochain Xavier Niel. Claire est convaincue que les politiques doivent aider ces génies de l'innovation.
+                                Etienne lui, veut gagner beaucoup d'argent.
+                            </p>
+                            <p className="mb-4 text-justify">
+                                Engagés tous les trois dans cet univers aux règles floues, ils vous feront découvrir comment naissent
+                                et meurent les startups.
                             </p>
 
                             <div className="mt-6">
                                 <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                                    Prix : 29.99€
+                                    Prix : 14.00€
                                 </h2>
                                 <button
                                     onClick={handlePurchase}
