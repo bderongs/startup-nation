@@ -1,4 +1,3 @@
-import { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
 
@@ -7,11 +6,11 @@ if (!process.env.STRIPE_SECRET_KEY) {
 }
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-    apiVersion: '2023-10-16',
+    apiVersion: '2024-12-18.acacia',
 });
 
-// Utilisez une export nommée au lieu d'une export par défaut
-export async function POST(request: NextRequest) {
+// Suppression du paramètre request non utilisé
+export async function POST() {
     try {
         const session = await stripe.checkout.sessions.create({
             payment_method_types: ['card'],
@@ -21,7 +20,7 @@ export async function POST(request: NextRequest) {
                         currency: 'eur',
                         product_data: {
                             name: 'Startup Nation',
-                            description: '20 millions d'euros par ici, 50 millions par là.Découvrez comment naissent et meurent les startups dans cet univers aux règles floues.',
+                            description: "20 millions d'euros par ici, 50 millions par là. Découvrez comment naissent et meurent les startups dans cet univers aux règles floues.",
                             images: [`${process.env.NEXT_PUBLIC_URL}/couverture-livre.jpg`],
                         },
                         unit_amount: 1400, // 14€ en centimes

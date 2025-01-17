@@ -49,13 +49,13 @@ export default function BookPage() {
 
                         <div className="mt-4 text-gray-600">
                             <p className="mb-4 text-justify">
-                                20 millions d'euros par ici, 50 millions par là. Tous les jours des Startups annoncent des montants records.
-                                Certaines changent le monde, d'autres ne font qu'un passage éphémère.
+                                20 millions d&apos;euros par ici, 50 millions par là. Tous les jours des Startups annoncent des montants records.
+                                Certaines changent le monde, d&apos;autres ne font qu&apos;un passage éphémère.
                             </p>
                             <p className="mb-4 text-justify">
-                                Thomas a été bercé par les histoires d'entrepreneurs à succès. Il veut créer le futur Doctolib et devenir
-                                le prochain Xavier Niel. Claire est convaincue que les politiques doivent aider ces génies de l'innovation.
-                                Etienne lui, veut gagner beaucoup d'argent.
+                                Thomas a été bercé par les histoires d&apos;entrepreneurs à succès. Il veut créer le futur Doctolib et devenir
+                                le prochain Xavier Niel. Claire est convaincue que les politiques doivent aider ces génies de l&apos;innovation.
+                                Etienne lui, veut gagner beaucoup d&apos;argent.
                             </p>
                             <p className="mb-4 text-justify">
                                 Engagés tous les trois dans cet univers aux règles floues, ils vous feront découvrir comment naissent
