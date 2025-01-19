@@ -2,30 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { loadStripe } from '@stripe/stripe-js';
-
-const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '');
 
 export default function BookPage() {
-    const handlePurchase = async () => {
-        try {
-            const stripe = await stripePromise;
-            if (!stripe) throw new Error('Stripe not loaded');
-
-            const response = await fetch('/api/create-checkout-session', {
-                method: 'POST',
-            });
-
-            const session = await response.json();
-
-            await stripe.redirectToCheckout({
-                sessionId: session.id,
-            });
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    };
-
     return (
         <div className="min-h-screen bg-[#EAE7D5] py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto overflow-hidden rounded-xl">
@@ -91,7 +69,7 @@ export default function BookPage() {
                             <div className="mt-8 space-y-6">
                                 <div className="bg-white/50 p-6 rounded-lg border border-black/10">
                                     <blockquote className="italic text-black/80 font-garamond">
-                                        "Le roman qui m&apos;a fait comprendre ce que mon petit fils fait sur son ordinateur"
+                                        &ldquo;Le roman qui m&apos;a fait comprendre ce que mon petit fils fait sur son ordinateur&rdquo;
                                     </blockquote>
                                     <div className="mt-2 text-right">
                                         <cite className="text-black/70 font-fjalla not-italic">
@@ -102,7 +80,7 @@ export default function BookPage() {
 
                                 <div className="bg-white/50 p-6 rounded-lg border border-black/10">
                                     <blockquote className="italic text-black/80 font-garamond">
-                                        "Investissez dans ce roman, c&apos;est une future licorne"
+                                        &ldquo;Investissez dans ce roman, c&apos;est une future licorne&rdquo;
                                     </blockquote>
                                     <div className="mt-2 text-right">
                                         <cite className="text-black/70 font-fjalla not-italic">
@@ -236,7 +214,7 @@ export default function BookPage() {
                             Ces années dans l&apos;écosystème des startups ont été passionnantes et intenses. J&apos;ai connu des hauts et des bas, j&apos;ai rencontré des personnes géniales, d&apos;autres moins.
                         </p>
                         <p>
-                            Plutôt qu&apos;un livre "comment devenir entrepreneur", j&apos;ai voulu écrire un roman. Une histoire fictive plongeant les lecteurs dans la réalité des startups,
+                            Plutôt qu&apos;un livre &ldquo;comment devenir entrepreneur&rdquo;, j&apos;ai voulu écrire un roman. Une histoire fictive plongeant les lecteurs dans la réalité des startups,
                             Loin des clichés et des success stories médiatisées. Mon objectif est de divertir, tout en donnant quelques clés de compréhension
                             à tous ceux qui s&apos;intéressent à cet écosystème, qu&apos;ils soient entrepreneurs en herbe,
                             investisseurs curieux ou simples observateurs.
