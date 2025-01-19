@@ -27,7 +27,7 @@ export default function BookPage() {
                 <div className="bg-[#EAE7D5] p-8">
                     {/* Titre principal */}
                     <h1 className="text-6xl md:text-7xl font-bold text-black mb-16 font-fjalla text-center max-w-3xl mx-auto">
-                        Startup Nation
+                        Start-Up Nation
                     </h1>
 
                     {/* Contenu principal */}
@@ -75,7 +75,7 @@ export default function BookPage() {
                         <div className="md:flex-1 md:pt-8">
                             <div className="text-black space-y-4 font-garamond">
                                 <p className="text-justify">
-                                    20 millions d&apos;euros par ici, 50 millions par là. Tous les jours des Startups annoncent des montants records.
+                                    20 millions d&apos;euros par ici, 50 millions par là. Tous les jours des Start-ups annoncent des montants records.
                                     Certaines changent le monde, d&apos;autres ne font qu&apos;un passage éphémère.
                                 </p>
                                 <p className="text-justify">
@@ -85,7 +85,7 @@ export default function BookPage() {
                                 </p>
                                 <p className="text-justify">
                                     Engagés tous les trois dans cet univers aux règles floues, ils vous feront découvrir comment naissent
-                                    et meurent les startups.
+                                    et meurent les start-ups.
                                 </p>
                             </div>
                         </div>
@@ -245,11 +245,11 @@ export default function BookPage() {
 
                     <div className="prose prose-lg max-w-none text-white/90 font-garamond prose-headings:text-white prose-strong:text-white">
                         <p className="mb-4">
-                            En 2015 j&apos;ai créé la startup Pipplet. J&apos;ai passé ensuite 5 ans à développer cette entreprise que j&apos;ai revendue en 2020 pour la quitte définitivement 3 ans plus tard.
-                            Ces années dans l&apos;écosystème des startups ont été passionnantes et intenses. J&apos;ai connu des hauts et des bas, j&apos;ai rencontré des personnes géniales, d&apos;autres moins.
+                            En 2015 j&apos;ai créé la start-up Pipplet. J&apos;ai passé ensuite 5 ans à développer cette entreprise que j&apos;ai revendue en 2020 pour la quitte définitivement 3 ans plus tard.
+                            Ces années dans l&apos;écosystème des start-ups ont été passionnantes et intenses. J&apos;ai connu des hauts et des bas, j&apos;ai rencontré des personnes géniales, d&apos;autres moins.
                         </p>
                         <p>
-                            Plutôt qu&apos;un livre &ldquo;comment devenir entrepreneur&rdquo;, j&apos;ai voulu écrire un roman. Une histoire fictive plongeant les lecteurs dans la réalité des startups,
+                            Plutôt qu&apos;un livre &ldquo;comment devenir entrepreneur&rdquo;, j&apos;ai voulu écrire un roman. Une histoire fictive plongeant les lecteurs dans la réalité des start-ups,
                             Loin des clichés et des success stories médiatisées. Mon objectif est de divertir, tout en donnant quelques clés de compréhension
                             à tous ceux qui s&apos;intéressent à cet écosystème, qu&apos;ils soient entrepreneurs en herbe,
                             investisseurs curieux ou simples observateurs.

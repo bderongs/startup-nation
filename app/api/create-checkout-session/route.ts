@@ -20,7 +20,7 @@ export async function POST() {
                         currency: 'eur',
                         product_data: {
                             name: 'Startup Nation',
-                            description: "20 millions d'euros par ici, 50 millions par là. Découvrez comment naissent et meurent les startups dans cet univers aux règles floues.",
+                            description: "20 millions d'euros par ici, 50 millions par là. Découvrez comment naissent et meurent les start-ups dans cet univers aux règles floues.",
                             images: [`${process.env.NEXT_PUBLIC_URL}/couverture-livre.jpg`],
                         },
                         unit_amount: 1400, // 14€ en centimes

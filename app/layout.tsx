@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   description: "Roman : Intrigue au cœur de la French Tech",
   metadataBase: new URL('https://www.derongs.net/startup-nation'),
   openGraph: {
-    title: 'Startup Nation',
+    title: 'Start-Uup Nation',
     description: 'Roman : Intrigue au cœur de la French Tech',
     images: [
       {
