@@ -31,11 +31,11 @@ export const metadata: Metadata = {
   description: "Roman : Intrigue au cœur de la French Tech",
   metadataBase: new URL('https://www.derongs.net/startup-nation'),
   openGraph: {
-    title: 'Start-Uup Nation',
-    description: 'Roman : Intrigue au cœur de la French Tech',
+    title: 'Start-Up Nation',
+    description: 'Intrigue au cœur de la French Tech. Un roman qui vous plonge dans les coulisses des start-ups.',
     images: [
       {
-        url: '/couverture-livre.jpg',
+        url: '/og_image.png',
         width: 1200,
         height: 630,
         alt: 'Couverture du livre Start-Up Nation',
