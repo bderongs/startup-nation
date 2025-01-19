@@ -18,6 +18,15 @@ module.exports = {
             transformStyle: {
                 '3d': 'preserve-3d',
             },
+            keyframes: {
+                bookRotate: {
+                    '0%': { transform: 'rotateY(0deg)' },
+                    '100%': { transform: 'rotateY(-15deg)' },
+                }
+            },
+            animation: {
+                'bookRotate': 'bookRotate 1s ease-out forwards',
+            }
         },
     },
     plugins: [],

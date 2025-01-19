@@ -14,7 +14,11 @@ export default function BookPage() {
                             {/* Conteneur avec perspective */}
                             <div className="relative [perspective:1000px] group">
                                 {/* Conteneur du livre avec préservation 3D */}
-                                <div className="relative w-[300px] [transform-style:preserve-3d] transition-transform duration-500 ease-out group-hover:[transform:rotateY(-15deg)]">
+                                <div className="relative w-[300px] [transform-style:preserve-3d] transition-transform duration-500 ease-out 
+                                    [transform:rotateY(-15deg)] 
+                                    group-hover:[transform:rotateY(0deg)]
+                                    animate-[bookRotate_1s_ease-out]"
+                                >
                                     {/* Tranche droite du livre */}
                                     <div
                                         className="absolute right-0 top-0 w-12 h-full bg-gray-300 origin-right 
