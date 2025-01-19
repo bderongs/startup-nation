@@ -3,6 +3,22 @@
 import React from 'react';
 import Image from 'next/image';
 
+function BookIcon({ className }: { className?: string }) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+        </svg>
+    );
+}
+
+function TabletIcon({ className }: { className?: string }) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5h3m-6.75 2.25h10.5a2.25 2.25 0 002.25-2.25v-15a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 4.5v15a2.25 2.25 0 002.25 2.25z" />
+        </svg>
+    );
+}
+
 export default function BookPage() {
     return (
         <div className="min-h-screen bg-[#EAE7D5] py-12 px-4 sm:px-6 lg:px-8">
@@ -118,8 +134,11 @@ export default function BookPage() {
                                                     className="object-contain"
                                                 />
                                                 <div className="flex justify-between items-center">
-                                                    <span className="text-gray-800 font-medium">Version papier</span>
-                                                    <span className="text-[#1a2d5d] font-bold text-lg">15,00 €</span>
+                                                    <span className="text-gray-800 font-medium flex items-center gap-2">
+                                                        <BookIcon className="h-5 w-5 text-[#1a2d5d]" />
+                                                        Papier
+                                                    </span>
+                                                    <span className="text-[#1a2d5d] font-bold text-sm">15,00 €</span>
                                                 </div>
                                             </div>
                                         </a>
@@ -139,8 +158,11 @@ export default function BookPage() {
                                                     className="object-contain"
                                                 />
                                                 <div className="flex justify-between items-center">
-                                                    <span className="text-gray-800 font-medium">Version ePub</span>
-                                                    <span className="text-[#1a2d5d] font-bold text-lg">3,99 €</span>
+                                                    <span className="text-gray-800 font-medium flex items-center gap-2">
+                                                        <TabletIcon className="h-5 w-5 text-[#1a2d5d]" />
+                                                        ePub
+                                                    </span>
+                                                    <span className="text-[#1a2d5d] font-bold text-sm">3,99 €</span>
                                                 </div>
                                             </div>
                                         </a>
