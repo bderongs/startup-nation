@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Intrigue au cœur de la French Tech. Un roman qui vous plonge dans les coulisses des start-ups.',
     images: [
       {
-        url: 'https://www.derongs.net/startup-nation/og_image.png',
+        url: 'https://www.derongs.net/og_image.png',
         width: 1200,
         height: 630,
         alt: 'Couverture du livre Start-Up Nation',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Start-Up Nation',
     description: 'Roman : Intrigue au cœur de la French Tech',
-    images: ['https://www.derongs.net/startup-nation/og_image.png'],
+    images: ['https://www.derongs.net/og_image.png'],
     creator: '@bderongs',
   },
   alternates: {
