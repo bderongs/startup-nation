@@ -44,7 +44,6 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     type: 'book',
     authors: ['Baptiste Derongs'],
-    publishedTime: '2025-01-17',
     siteName: 'Startup Nation',
   },
   twitter: {
