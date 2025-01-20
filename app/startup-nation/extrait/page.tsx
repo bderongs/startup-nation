@@ -19,7 +19,7 @@ export default function ExtractPage() {
 
                 <div className="bg-white/50 p-8 rounded-lg border border-black/10">
                     <div className="prose prose-lg max-w-none text-black/90 font-garamond px-4 sm:px-8">
-                        <h2 className="font-fjalla text-2xl mb-8">Chapitre 1 : J'en ai marre de travailler dans le vent</h2>
+                        <h2 className="font-fjalla text-2xl mb-8">Chapitre 1 : J&apos;en ai marre de travailler dans le vent</h2>
 
                         {/* Style dialogue */}
                         <div className="mb-4">
@@ -29,7 +29,7 @@ export default function ExtractPage() {
                         </div>
                         <div className="mb-4">
                             <p className="text-justify indent-8">
-                                Thomas tourne la tête et aperçoit Michel, responsable du département « qualité », son chef. Il est 10 heures, l'Open Space est très bruyant, parcouru par des dizaines de groupes se rendant ou revenant de la machine à café. Thomas avait donc son casque sur les oreilles et n'a pas entendu son chef arriver. Heureusement qu'il était réellement en train de travailler et non de prévoir ses prochaines vacances.
+                                Thomas tourne la tête et aperçoit Michel, responsable du département « qualité », son chef. Il est 10 heures, l&apos;Open Space est très bruyant, parcouru par des dizaines de groupes se rendant ou revenant de la machine à café. Thomas avait donc son casque sur les oreilles et n&apos;a pas entendu son chef arriver. Heureusement qu&apos;il était réellement en train de travailler et non de prévoir ses prochaines vacances.
                             </p>
                         </div>
                         <div className="mb-4">
@@ -114,7 +114,7 @@ export default function ExtractPage() {
                             <div className="flex justify-end">
                                 <div className="bg-[#1a2d5d]/10 p-3 rounded-2xl rounded-tr-none max-w-[85%] font-garamond">
                                     <span className="text-gray-500 text-sm block mb-1">Gaëtan</span>
-                                    On a déjà fait ça lundi, tu te souviens ?
+                                    On a déjà fait ça lundi, tu te souviens ?
                                 </div>
                             </div>
 
@@ -129,7 +129,7 @@ export default function ExtractPage() {
                         {/* Paragraphe narratif */}
                         <div className="mb-4">
                             <p className="text-justify indent-8">
-                                Thomas retourne à son bureau avec son café, ignorant les regards interrogatifs de ses collègues. Il est 10 h 30, il partira déjeuner dans une heure, ils éviteront la cohue du midi et son bureau vide montrera à Michel qu'il n'est pas content.
+                                Thomas retourne à son bureau avec son café, ignorant les regards interrogatifs de ses collègues. Il est 10 h 30, il partira déjeuner dans une heure, ils éviteront la cohue du midi et son bureau vide montrera à Michel qu&apos;il n&apos;est pas content.
                             </p>
                         </div>
 
@@ -138,28 +138,28 @@ export default function ExtractPage() {
                                 À 11 h 35 ils sont les premiers clients de la pizzeria. Gaëtan essaie de détendre Thomas :
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
-                                <span className="text-[#1a2d5d]">—</span> Tu n'as pas bossé pour rien, c'est juste le troisième délai. On dit bien jamais deux sans trois non ? La prochaine sera la bonne.
+                                <span className="text-[#1a2d5d]">—</span> Tu n&apos;as pas bossé pour rien, c&apos;est juste le troisième délai. On dit bien jamais deux sans trois non ? La prochaine sera la bonne.
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
-                                <span className="text-[#1a2d5d]">—</span> J'en ai marre franchement, répond Thomas en se prenant la tête entre les mains. Ça fait trois ans que je suis dans cette boîte et je ne fais que travailler dans le vent. Je suis sur ce projet depuis six mois, tout le monde dit que c'est une bonne idée, mais personne ne veut prendre la décision. Dès que cela devient sérieux l'un des patrons trouve un prétexte pour le repousser. J'ai l'impression que cette tour de cinquante étages consacre ses journées à faire des réunions et envoyer des mails, sans que rien ne se passe.
+                                <span className="text-[#1a2d5d]">—</span> J&apos;en ai marre franchement, répond Thomas en se prenant la tête entre les mains. Ça fait trois ans que je suis dans cette boîte et je ne fais que travailler dans le vent. Je suis sur ce projet depuis six mois, tout le monde dit que c&apos;est une bonne idée, mais personne ne veut prendre la décision. Dès que cela devient sérieux l&apos;un des patrons trouve un prétexte pour le repousser. J&apos;ai l&apos;impression que cette tour de cinquante étages consacre ses journées à faire des réunions et envoyer des mails, sans que rien ne se passe.
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
-                                <span className="text-[#1a2d5d]">—</span> C'est pareil chez moi, sympathise Gaëtan, ils ont présenté une nouvelle réorganisation ce matin. C'est plus ou moins la même qu'il y a deux ans.
+                                <span className="text-[#1a2d5d]">—</span> C&apos;est pareil chez moi, sympathise Gaëtan, ils ont présenté une nouvelle réorganisation ce matin. C&apos;est plus ou moins la même qu&apos;il y a deux ans.
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
-                                <span className="text-[#1a2d5d]">—</span> C'est pas possible, dramatise Thomas, on ne va pas bosser encore trente ans comme ça ? Je ne veux pas finir comme Michel, désabusé au point de ne plus rien vouloir faire.
+                                <span className="text-[#1a2d5d]">—</span> C&apos;est pas possible, dramatise Thomas, on ne va pas bosser encore trente ans comme ça ? Je ne veux pas finir comme Michel, désabusé au point de ne plus rien vouloir faire.
                             </p>
                         </div>
 
                         <div className="mb-4">
                             <p className="text-justify indent-8">
-                                La discussion est éculée entre eux, ils en parlent à chaque fois. Leurs études d'ingénieurs les ont menés vers des emplois confortables dans lesquels ils s'ennuient déjà. La progression naturelle est de devenir un Michel démotivé, avec une maison de campagne dans laquelle s'enfuir dès le vendredi soir.
+                                La discussion est éculée entre eux, ils en parlent à chaque fois. Leurs études d&apos;ingénieurs les ont menés vers des emplois confortables dans lesquels ils s&apos;ennuient déjà. La progression naturelle est de devenir un Michel démotivé, avec une maison de campagne dans laquelle s&apos;enfuir dès le vendredi soir.
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
-                                <span className="text-[#1a2d5d]">—</span> Changeons de sujet, fait Thomas, tu as vu la levée de fonds annoncée par Mobilis ce matin ? Deux-cents millions d'euros pour une simple application de GPS, c'est impensable non ?
+                                <span className="text-[#1a2d5d]">—</span> Changeons de sujet, fait Thomas, tu as vu la levée de fonds annoncée par Mobilis ce matin ? Deux-cents millions d&apos;euros pour une simple application de GPS, c&apos;est impensable non ?
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
-                                <span className="text-[#1a2d5d]">—</span> J'ai vu, confirme Gaëtan, j'ai téléchargé l'appli. Franchement, c'est nul, techniquement ça ne tient pas la route. Mais c'est joli et tu gagnes des points quand tu partages ta position en direct, ça doit en amuser certains.
+                                <span className="text-[#1a2d5d]">—</span> J&apos;ai vu, confirme Gaëtan, j&apos;ai téléchargé l&apos;appli. Franchement, c&apos;est nul, techniquement ça ne tient pas la route. Mais c&apos;est joli et tu gagnes des points quand tu partages ta position en direct, ça doit en amuser certains.
                             </p>
                             <p className="text-justify leading-relaxed indent-8">
                                 <span className="text-[#1a2d5d]">—</span> Deux-cents millions…, fait Thomas.
@@ -168,13 +168,13 @@ export default function ExtractPage() {
 
                         <div className="mb-4">
                             <p className="text-justify indent-8">
-                                Gaëtan passe le reste du repas à montrer à Thomas tout ce qui ne va pas dans l'application de Mobilis. Des lenteurs, des bugs. Mais les deux doivent avouer que c'est l'application de GPS la plus pratique qu'ils ont vu jusque-là. Une fois qu'on l'a utilisé, impossible de retourner à l'une des anciennes applications. Ils se quittent en se promettant que, si un jour, ils créent leur application, elle provoquera ce fameux effet « Waouh », celui qui garanti que les utilisateurs reviendront.
+                                Gaëtan passe le reste du repas à montrer à Thomas tout ce qui ne va pas dans l&apos;application de Mobilis. Des lenteurs, des bugs. Mais les deux doivent avouer que c&apos;est l&apos;application de GPS la plus pratique qu&apos;ils ont vu jusque-là. Une fois qu&apos;on l&apos;a utilisé, impossible de retourner à l&apos;une des anciennes applications. Ils se quittent en se promettant que, si un jour, ils créent leur application, elle provoquera ce fameux effet « Waouh », celui qui garanti que les utilisateurs reviendront.
                             </p>
                         </div>
 
                         <div className="mb-4">
                             <p className="text-justify indent-8">
-                                Le soir, chez lui, Thomas repense à sa discussion avec Gaëtan. Il s'imagine diriger une startup et annoncer une levée de fonds de deux-cents millions à son équipe, dans des locaux flambants neufs. Plus il pense à son déjeuner, plus quelque chose d'insaisissable travaille son esprit. Tout à coup, il prend son téléphone :
+                                Le soir, chez lui, Thomas repense à sa discussion avec Gaëtan. Il s&apos;imagine diriger une startup et annoncer une levée de fonds de deux-cents millions à son équipe, dans des locaux flambants neufs. Plus il pense à son déjeuner, plus quelque chose d&apos;insaisissable travaille son esprit. Tout à coup, il prend son téléphone :
                             </p>
                         </div>
 
@@ -183,7 +183,7 @@ export default function ExtractPage() {
                             <div className="flex justify-start">
                                 <div className="bg-gray-100 p-3 rounded-2xl rounded-tl-none max-w-[85%] font-garamond">
                                     <span className="text-gray-500 text-sm block mb-1">Thomas</span>
-                                    Gaëtan, j'ai trouvé l'idée ! LA startup qu'il faut créer.
+                                    Gaëtan, j&apos;ai trouvé l&apos;idée ! LA startup qu&apos;il faut créer.
                                 </div>
                             </div>
 
@@ -197,7 +197,7 @@ export default function ExtractPage() {
                             <div className="flex justify-start">
                                 <div className="bg-gray-100 p-3 rounded-2xl rounded-tl-none max-w-[85%] font-garamond">
                                     <span className="text-gray-500 text-sm block mb-1">Thomas</span>
-                                    Ouais. Tu es dispo pour qu'on s'appelle ?
+                                    Ouais. Tu es dispo pour qu&apos;on s&apos;appelle ?
                                 </div>
                             </div>
 
@@ -211,7 +211,7 @@ export default function ExtractPage() {
                             <div className="flex justify-start">
                                 <div className="bg-gray-100 p-3 rounded-2xl rounded-tl-none max-w-[85%] font-garamond">
                                     <span className="text-gray-500 text-sm block mb-1">Thomas</span>
-                                    Mets en pause, si tu n'es pas convaincu en 10 minutes je te laisse y retourner.
+                                    Mets en pause, si tu n&apos;es pas convaincu en 10 minutes je te laisse y retourner.
                                 </div>
                             </div>
 
