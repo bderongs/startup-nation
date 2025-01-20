@@ -245,11 +245,11 @@ export default function BookPage() {
 
                     <div className="prose prose-lg max-w-none text-white/90 font-garamond prose-headings:text-white prose-strong:text-white">
                         <p className="mb-4">
-                            En 2015 j&apos;ai créé la start-up Pipplet. J&apos;ai passé ensuite 5 ans à développer cette entreprise que j&apos;ai revendue en 2020 pour la quitte définitivement 3 ans plus tard.
+                            En 2015 j&apos;ai créé la start-up Pipplet. J&apos;ai passé ensuite 5 ans à développer cette entreprise que j&apos;ai revendue en 2020 pour la quitter définitivement 3 ans plus tard.
                             Ces années dans l&apos;écosystème des start-ups ont été passionnantes et intenses. J&apos;ai connu des hauts et des bas, j&apos;ai rencontré des personnes géniales, d&apos;autres moins.
                         </p>
                         <p>
-                            Plutôt qu&apos;un livre &ldquo;comment devenir entrepreneur&rdquo;, j&apos;ai voulu écrire un roman. Une histoire fictive plongeant les lecteurs dans la réalité des start-ups,
+                            Plutôt qu&apos;un livre &ldquo;comment devenir entrepreneur&rdquo;, j&apos;ai voulu écrire un roman. Une histoire fictive plongeant les lecteurs dans la réalité des start-ups.
                             Loin des clichés et des success stories médiatisées. Mon objectif est de divertir, tout en donnant quelques clés de compréhension
                             à tous ceux qui s&apos;intéressent à cet écosystème, qu&apos;ils soient entrepreneurs en herbe,
                             investisseurs curieux ou simples observateurs.
