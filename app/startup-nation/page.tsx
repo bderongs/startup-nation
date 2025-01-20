@@ -19,6 +19,31 @@ function TabletIcon({ className }: { className?: string }) {
     );
 }
 
+function LinkedInIcon({ className }: { className?: string }) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+        </svg>
+    );
+}
+
+function EmailIcon({ className }: { className?: string }) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+    );
+}
+
+function BookOpenIcon({ className }: { className?: string }) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+        </svg>
+    );
+}
+
 export default function BookPage() {
     return (
         <div className="min-h-screen bg-[#EAE7D5] py-12 px-4 sm:px-6 lg:px-8">
@@ -71,8 +96,9 @@ export default function BookPage() {
                             </div>
                         </div>
 
-                        {/* Résumé */}
+                        {/* Résumé et témoignages */}
                         <div className="md:flex-1 md:pt-8">
+                            {/* Résumé */}
                             <div className="text-black space-y-4 font-garamond">
                                 <p className="text-justify">
                                     20 millions d&apos;euros par ici, 50 millions par là. Tous les jours des Start-ups annoncent des montants records.
@@ -88,32 +114,55 @@ export default function BookPage() {
                                     et meurent les start-ups.
                                 </p>
                             </div>
+
+                            {/* Section témoignages */}
+                            <div className="mt-8 space-y-4">
+                                <div className="space-y-4">
+                                    <div className="bg-white/50 p-4 rounded-lg border border-black/10">
+                                        <blockquote className="italic text-black/80 font-garamond text-sm">
+                                            &ldquo;Le roman qui m&apos;a fait comprendre ce que mon petit fils fait sur son ordinateur.&rdquo;
+                                        </blockquote>
+                                        <div className="mt-2 text-right">
+                                            <cite className="text-black/70 font-fjalla not-italic text-sm">
+                                                — Mamie Nicole
+                                            </cite>
+                                        </div>
+                                    </div>
+
+                                    <div className="bg-white/50 p-4 rounded-lg border border-black/10">
+                                        <blockquote className="italic text-black/80 font-garamond text-sm">
+                                            &ldquo;Investissez dans ce roman, c&apos;est une future licorne.&rdquo;
+                                        </blockquote>
+                                        <div className="mt-2 text-right">
+                                            <cite className="text-black/70 font-fjalla not-italic text-sm">
+                                                — Etienne, leveur de fonds
+                                            </cite>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Section témoignages en pleine largeur */}
-                    <div className="mt-16 space-y-6">
-                        <div className="grid md:grid-cols-2 gap-6">
-                            <div className="bg-white/50 p-6 rounded-lg border border-black/10">
-                                <blockquote className="italic text-black/80 font-garamond">
-                                    &ldquo;Le roman qui m&apos;a fait comprendre ce que mon petit fils fait sur son ordinateur&rdquo;
-                                </blockquote>
-                                <div className="mt-2 text-right">
-                                    <cite className="text-black/70 font-fjalla not-italic">
-                                        — Mamie Nicole
-                                    </cite>
-                                </div>
+                    {/* Section Extrait */}
+                    <div className="mt-16">
+                        <h2 className="text-2xl font-semibold text-black mb-4 font-fjalla flex items-center gap-2">
+                            <BookOpenIcon className="h-6 w-6" />
+                            Lire un extrait
+                        </h2>
+                        <div className="bg-white/50 p-8 rounded-lg border border-black/10">
+                            <div className="prose prose-lg max-w-none text-black/90 font-garamond">
+                                <p className="text-justify">
+                                    Thomas a toujours rêvé de devenir entrepreneur. Depuis qu&apos;il est petit, il lit les histoires de ces génies qui ont changé le monde depuis leur garage...
+                                </p>
                             </div>
-
-                            <div className="bg-white/50 p-6 rounded-lg border border-black/10">
-                                <blockquote className="italic text-black/80 font-garamond">
-                                    &ldquo;Investissez dans ce roman, c&apos;est une future licorne&rdquo;
-                                </blockquote>
-                                <div className="mt-2 text-right">
-                                    <cite className="text-black/70 font-fjalla not-italic">
-                                        — Etienne, leveur de fonds
-                                    </cite>
-                                </div>
+                            <div className="mt-6 flex justify-end">
+                                <a
+                                    href="/startup-nation/extrait"
+                                    className="text-[#1a2d5d] hover:text-[#1a2d5d]/80 transition-colors flex items-center gap-2 font-fjalla"
+                                >
+                                    Lire la suite →
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -185,34 +234,32 @@ export default function BookPage() {
                             </h3>
                             <div className="grid md:grid-cols-2 gap-6">
                                 {/* Amazon - Prochainement */}
-                                <div className="relative flex items-center justify-center p-6 border rounded-lg bg-gray-50 h-[104px]">
-                                    <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm rounded-lg">
-                                        <span className="text-gray-600 font-medium px-4 py-2 rounded-full bg-gray-100">
-                                            Prochainement
-                                        </span>
+                                <div className="relative flex items-center justify-center p-6 border rounded-lg bg-white group overflow-hidden">
+                                    {/* Bandeau "Bientôt" */}
+                                    <div className="absolute -right-12 top-4 bg-gray-500/90 text-white text-xs font-medium px-12 py-1 rotate-45 shadow-sm">
+                                        Bientôt
                                     </div>
                                     <Image
                                         src="/logos/amazon.png"
                                         alt="Amazon"
                                         width={120}
                                         height={40}
-                                        className="object-contain opacity-40"
+                                        className="object-contain opacity-60 group-hover:opacity-80 transition-opacity"
                                     />
                                 </div>
 
                                 {/* Fnac - Prochainement */}
-                                <div className="relative flex items-center justify-center p-6 border rounded-lg bg-gray-50 h-[104px]">
-                                    <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm rounded-lg">
-                                        <span className="text-gray-600 font-medium px-4 py-2 rounded-full bg-gray-100">
-                                            Prochainement
-                                        </span>
+                                <div className="relative flex items-center justify-center p-6 border rounded-lg bg-white group overflow-hidden">
+                                    {/* Bandeau "Bientôt" */}
+                                    <div className="absolute -right-12 top-4 bg-gray-500/90 text-white text-xs font-medium px-12 py-1 rotate-45 shadow-sm">
+                                        Bientôt
                                     </div>
                                     <Image
                                         src="/logos/fnac.png"
                                         alt="Fnac"
                                         width={120}
                                         height={40}
-                                        className="object-contain opacity-40"
+                                        className="object-contain opacity-60 group-hover:opacity-80 transition-opacity"
                                     />
                                 </div>
                             </div>
@@ -256,14 +303,24 @@ export default function BookPage() {
                         </p>
                     </div>
 
-                    <div className="mt-8 flex space-x-4">
-                        <a href="https://www.linkedin.com/in/bderongs/"
-                            className="text-white hover:text-white/80 transition-colors">
-                            Mon profil LinkedIn
+                    <div className="mt-8 flex space-x-6">
+                        <a
+                            href="https://www.linkedin.com/in/bderongs/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white hover:text-white/80 transition-colors flex items-center gap-2"
+                            title="Mon profil LinkedIn"
+                        >
+                            <LinkedInIcon className="h-6 w-6" />
+                            <span className="sr-only">LinkedIn</span>
                         </a>
-                        <a href="mailto:baptiste.derongs@gmail.com"
-                            className="text-white hover:text-white/80 transition-colors">
-                            Envoyez-moi un message
+                        <a
+                            href="mailto:startup-nation@derongs.net"
+                            className="text-white hover:text-white/80 transition-colors flex items-center gap-2"
+                            title="Envoyez-moi un message"
+                        >
+                            <EmailIcon className="h-6 w-6" />
+                            <span className="sr-only">Email</span>
                         </a>
                     </div>
                 </div>
