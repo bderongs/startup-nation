@@ -69,6 +69,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={`${geistSans.variable} ${geistMono.variable} ${fjallaOne.variable} ${ebGaramond.variable} antialiased`}>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body>{children}</body>
     </html>
   );

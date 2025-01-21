@@ -101,7 +101,7 @@ export default function BookPage() {
                             {/* Résumé */}
                             <div className="text-black space-y-4 font-garamond">
                                 <p className="text-justify">
-                                    20 millions d&apos;euros par ici, 50 millions par là. Tous les jours des Start-ups annoncent des montants records.
+                                    20 millions d&apos;euros par ici, 50 millions par là. Tous les jours des Start-Ups annoncent des montants records.
                                     Certaines changent le monde, d&apos;autres ne font qu&apos;un passage éphémère.
                                 </p>
                                 <p className="text-justify">
