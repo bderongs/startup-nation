@@ -6,7 +6,7 @@ export default function ExtractPage() {
             <div className="max-w-2xl mx-auto">
                 <div className="mb-8">
                     <Link
-                        href="/startup-nation"
+                        href="/"
                         className="text-[#1a2d5d] hover:text-[#1a2d5d]/80 transition-colors flex items-center gap-2 font-fjalla"
                     >
                         ← Retour au livre
@@ -230,7 +230,7 @@ export default function ExtractPage() {
                             </p>
                             <div className="mt-4">
                                 <Link
-                                    href="/startup-nation#achat"
+                                    href="/#achat"
                                     className="text-[#1a2d5d] hover:text-[#1a2d5d]/80 transition-colors inline-flex items-center gap-2 font-fjalla"
                                 >
                                     Acheter le livre →

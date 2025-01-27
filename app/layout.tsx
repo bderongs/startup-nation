@@ -29,14 +29,14 @@ const ebGaramond = EB_Garamond({
 export const metadata: Metadata = {
   title: "Start-Up Nation",
   description: "Roman : Intrigue au cœur de la French Tech",
-  metadataBase: new URL('https://www.derongs.net/startup-nation'),
+  metadataBase: new URL('https://www.startup-nation.fr'),
   openGraph: {
     title: 'Start-Up Nation',
     description: 'Intrigue au cœur de la French Tech. Un roman qui vous plonge dans les coulisses des start-ups.',
-    url: 'https://www.derongs.net/startup-nation',
+    url: 'https://www.startup-nation.fr',
     images: [
       {
-        url: 'https://www.derongs.net/og_image.png',
+        url: 'https://www.startup-nation.fr/og_image.png',
         width: 1200,
         height: 630,
         alt: 'Couverture du livre Start-Up Nation',
@@ -51,16 +51,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Start-Up Nation',
     description: 'Roman : Intrigue au cœur de la French Tech',
-    images: ['https://www.derongs.net/og_image.png'],
+    images: ['https://www.startup-nation.fr/og_image.png'],
     creator: '@bderongs',
   },
   alternates: {
-    canonical: 'https://www.derongs.net/startup-nation',
+    canonical: 'https://www.startup-nation.fr',
   },
   keywords: ['startup', 'roman', 'french tech', 'entrepreneuriat', 'innovation', 'fiction'],
   authors: [{ name: 'Baptiste Derongs' }],
   category: 'book',
-  bookmarks: 'https://www.derongs.net/startup-nation',
+  bookmarks: 'https://www.startup-nation.fr',
 };
 
 export default function RootLayout({
