@@ -33,6 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Start-Up Nation',
     description: 'Intrigue au cœur de la French Tech. Un roman qui vous plonge dans les coulisses des start-ups.',
+    url: 'https://www.derongs.net/startup-nation',
     images: [
       {
         url: 'https://www.derongs.net/og_image.png',
