@@ -230,23 +230,33 @@ export default function BookPage() {
                         {/* Section Autres revendeurs */}
                         <div>
                             <h3 className="text-lg font-medium text-black mb-4 font-fjalla">
-                                Et bientôt disponible sur
+                                Autres revendeurs
                             </h3>
                             <div className="grid md:grid-cols-2 gap-6">
-                                {/* Amazon - Prochainement */}
-                                <div className="relative flex items-center justify-center p-6 border rounded-lg bg-white group overflow-hidden">
-                                    {/* Bandeau "Bientôt" */}
-                                    <div className="absolute -right-12 top-4 bg-gray-500/90 text-white text-xs font-medium px-12 py-1 rotate-45 shadow-sm">
-                                        Bientôt
+                                {/* Amazon - Actif */}
+                                <a
+                                    href="https://www.amazon.fr/Start-Up-Nation-Baptiste-Derongs/dp/B0DWWYW1LR/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block p-6 border rounded-lg hover:bg-[#1a2d5d]/5 transition-colors border-[#1a2d5d]/20 bg-white group"
+                                >
+                                    <div className="flex flex-col space-y-4">
+                                        <Image
+                                            src="/logos/amazon.png"
+                                            alt="Amazon"
+                                            width={120}
+                                            height={40}
+                                            className="object-contain"
+                                        />
+                                        <div className="flex justify-between items-center">
+                                            <span className="text-gray-800 font-medium flex items-center gap-2">
+                                                <BookIcon className="h-5 w-5 text-[#1a2d5d]" />
+                                                Papier
+                                            </span>
+                                            <span className="text-[#1a2d5d] font-bold text-sm">15,00 €</span>
+                                        </div>
                                     </div>
-                                    <Image
-                                        src="/logos/amazon.png"
-                                        alt="Amazon"
-                                        width={120}
-                                        height={40}
-                                        className="object-contain opacity-60 group-hover:opacity-80 transition-opacity"
-                                    />
-                                </div>
+                                </a>
 
                                 {/* Fnac - Prochainement */}
                                 <div className="relative flex items-center justify-center p-6 border rounded-lg bg-white group overflow-hidden">
