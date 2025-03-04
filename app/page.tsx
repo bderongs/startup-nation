@@ -173,104 +173,122 @@ export default function BookPage() {
                             Où acheter le livre
                         </h2>
 
-                        {/* Section Bookelis */}
-                        <div className="mb-12">
-                            <h3 className="text-lg font-medium text-black mb-4 font-fjalla">Sur Bookelis</h3>
-                            <div className="grid md:grid-cols-2 gap-6">
-                                <a
-                                    href="https://livres.bookelis.com/romans/67102-Start-Up-Nation.html"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block p-6 border rounded-lg hover:bg-[#1a2d5d]/5 transition-colors border-[#1a2d5d]/20 bg-white group"
-                                >
-                                    <div className="flex flex-col space-y-4">
-                                        <Image
-                                            src="/logos/bookelis.png"
-                                            alt="Bookelis"
-                                            width={120}
-                                            height={40}
-                                            className="object-contain"
-                                        />
-                                        <div className="flex justify-between items-center">
+                        {/* Grille des revendeurs */}
+                        <div className="grid md:grid-cols-3 gap-6">
+                            {/* Bookelis */}
+                            <div className="block p-6 border rounded-lg border-[#1a2d5d]/20 bg-white">
+                                <div className="flex flex-col space-y-4">
+                                    <Image
+                                        src="/logos/bookelis.png"
+                                        alt="Bookelis"
+                                        width={120}
+                                        height={30}
+                                        className="object-contain h-[30px]"
+                                    />
+                                    <div className="space-y-3">
+                                        <a
+                                            href="https://livres.bookelis.com/romans/67102-Start-Up-Nation.html"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex justify-between items-center hover:bg-[#1a2d5d]/5 p-2 rounded transition-colors"
+                                        >
                                             <span className="text-gray-800 font-medium flex items-center gap-2">
                                                 <BookIcon className="h-5 w-5 text-[#1a2d5d]" />
                                                 Papier
                                             </span>
                                             <span className="text-[#1a2d5d] font-bold text-sm">15,00 €</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a
-                                    href="https://livres.bookelis.com/romans/67134-Start-up-Nation.html"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block p-6 border rounded-lg hover:bg-[#1a2d5d]/5 transition-colors border-[#1a2d5d]/20 bg-white group"
-                                >
-                                    <div className="flex flex-col space-y-4">
-                                        <Image
-                                            src="/logos/bookelis.png"
-                                            alt="Bookelis"
-                                            width={120}
-                                            height={40}
-                                            className="object-contain"
-                                        />
-                                        <div className="flex justify-between items-center">
+                                        </a>
+                                        <a
+                                            href="https://livres.bookelis.com/romans/67134-Start-up-Nation.html"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex justify-between items-center hover:bg-[#1a2d5d]/5 p-2 rounded transition-colors"
+                                        >
                                             <span className="text-gray-800 font-medium flex items-center gap-2">
                                                 <TabletIcon className="h-5 w-5 text-[#1a2d5d]" />
                                                 ePub
                                             </span>
                                             <span className="text-[#1a2d5d] font-bold text-sm">3,99 €</span>
-                                        </div>
+                                        </a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
-                        </div>
 
-                        {/* Section Autres revendeurs */}
-                        <div>
-                            <h3 className="text-lg font-medium text-black mb-4 font-fjalla">
-                                Autres revendeurs
-                            </h3>
-                            <div className="grid md:grid-cols-2 gap-6">
-                                {/* Amazon - Actif */}
-                                <a
-                                    href="https://www.amazon.fr/Start-Up-Nation-Baptiste-Derongs/dp/B0DWWYW1LR/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block p-6 border rounded-lg hover:bg-[#1a2d5d]/5 transition-colors border-[#1a2d5d]/20 bg-white group"
-                                >
-                                    <div className="flex flex-col space-y-4">
-                                        <Image
-                                            src="/logos/amazon.png"
-                                            alt="Amazon"
-                                            width={120}
-                                            height={40}
-                                            className="object-contain"
-                                        />
-                                        <div className="flex justify-between items-center">
+                            {/* Amazon */}
+                            <div className="block p-6 border rounded-lg border-[#1a2d5d]/20 bg-white">
+                                <div className="flex flex-col space-y-4">
+                                    <Image
+                                        src="/logos/amazon.png"
+                                        alt="Amazon"
+                                        width={120}
+                                        height={30}
+                                        className="object-contain h-[30px]"
+                                    />
+                                    <div className="space-y-3">
+                                        <a
+                                            href="https://www.amazon.fr/Start-Up-Nation-Baptiste-Derongs/dp/B0DWWYW1LR/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex justify-between items-center hover:bg-[#1a2d5d]/5 p-2 rounded transition-colors"
+                                        >
                                             <span className="text-gray-800 font-medium flex items-center gap-2">
                                                 <BookIcon className="h-5 w-5 text-[#1a2d5d]" />
                                                 Papier
                                             </span>
                                             <span className="text-[#1a2d5d] font-bold text-sm">15,00 €</span>
-                                        </div>
+                                        </a>
+                                        <a
+                                            href="https://amzn.eu/d/8g4QCiP"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex justify-between items-center hover:bg-[#1a2d5d]/5 p-2 rounded transition-colors"
+                                        >
+                                            <span className="text-gray-800 font-medium flex items-center gap-2">
+                                                <TabletIcon className="h-5 w-5 text-[#1a2d5d]" />
+                                                Kindle
+                                            </span>
+                                            <span className="text-[#1a2d5d] font-bold text-sm">3,99 €</span>
+                                        </a>
                                     </div>
-                                </a>
+                                </div>
+                            </div>
 
-                                {/* Fnac - Prochainement */}
-                                <div className="relative flex items-center justify-center p-6 border rounded-lg bg-white group overflow-hidden">
-                                    {/* Bandeau "Bientôt" */}
-                                    <div className="absolute -right-12 top-4 bg-gray-500/90 text-white text-xs font-medium px-12 py-1 rotate-45 shadow-sm">
-                                        Bientôt
-                                    </div>
+                            {/* Fnac */}
+                            <div className="block p-6 border rounded-lg border-[#1a2d5d]/20 bg-white">
+                                <div className="flex flex-col space-y-4">
                                     <Image
                                         src="/logos/fnac.png"
                                         alt="Fnac"
                                         width={120}
-                                        height={40}
-                                        className="object-contain opacity-60 group-hover:opacity-80 transition-opacity"
+                                        height={30}
+                                        className="object-contain h-[30px]"
                                     />
+                                    <div className="space-y-3">
+                                        <a
+                                            href="https://www.fnac.com/a21315577/Baptiste-Derongs-Start-Up-Nation"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex justify-between items-center hover:bg-[#1a2d5d]/5 p-2 rounded transition-colors"
+                                        >
+                                            <span className="text-gray-800 font-medium flex items-center gap-2">
+                                                <BookIcon className="h-5 w-5 text-[#1a2d5d]" />
+                                                Papier
+                                            </span>
+                                            <span className="text-[#1a2d5d] font-bold text-sm">15,00 €</span>
+                                        </a>
+                                        <a
+                                            href="https://www.fnac.com/livre-numerique/a21264872/Baptiste-Derongs-Start-up-Nation"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex justify-between items-center hover:bg-[#1a2d5d]/5 p-2 rounded transition-colors"
+                                        >
+                                            <span className="text-gray-800 font-medium flex items-center gap-2">
+                                                <TabletIcon className="h-5 w-5 text-[#1a2d5d]" />
+                                                ePub
+                                            </span>
+                                            <span className="text-[#1a2d5d] font-bold text-sm">3,99 €</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
